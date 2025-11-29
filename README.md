@@ -1,2 +1,2 @@
 # w-dotfiles
-dotfiles for my *windows* machine(s)
+dotfiles for my **windows** machine(s)
