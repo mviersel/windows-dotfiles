@@ -319,3 +319,7 @@ keybindings:
     bindings: ['alt+shift+8']
   - commands: ['move --workspace 9', 'focus --workspace 9']
     bindings: ['alt+shift+9']
+
+floating_windows:
+  - "voicemeeterpro.exe"
+  - "TeraCopy.exe"

@@ -91,6 +91,7 @@ LocalSend.LocalSend
 Olivia.VIA
 TwinkleTray.xanderfrangos  # fallback id als die wijzigt
 raycast
+adrienallard.fileconverter
 
 # ==========================
 # Game launchers
@@ -107,3 +108,8 @@ Adobe.Acrobat.Reader.64-bit
 # Winget tooling / GUI
 # ==========================
 MartiCliment.UniGetUI
+
+# ==========================
+# Fonts
+# ==========================
+JanDeDobbeleer.OhMyPosh
