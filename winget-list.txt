@@ -2,7 +2,7 @@ Microsoft.VisualStudioCode
 Mozilla.Firefox
 7zip.7zip
 Git.Git
-Nodejs.NodeJS
+OpenJS.NodeJS.LTS 
 Spotify.Spotify
 Zen-Team.Zen-Browser
 MartiCliment.UniGetUI
@@ -28,3 +28,6 @@ Microsoft.PowerToys
 RevoUninstaller.RevoUninstaller
 CodeSector.TeraCopy
 VideoLAN.VLC
+msys2.msys2
+Microsoft.VisualStudio.BuildTools
+Modrinth.ModrinthApp
