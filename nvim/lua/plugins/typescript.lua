@@ -15,7 +15,7 @@ return {
 
 	-- Mason: automatisch de juiste tools installeren
 	{
-		"williamboman/mason.nvim",
+		"mason-org/mason.nvim",
 		opts = {
 			ensure_installed = {
 				"typescript-language-server",

@@ -67,4 +67,13 @@ function nvif() {
     nvim $(fzf)
   }
 
+
+function ytmp4() {
+    yt-dlp -f "bv*+ba/b" --merge-output-format mp4 $args 
+  }
+
+function ythd() {
+    yt-dlp -f "bv*[height=1080]+ba/b[height=1080]" --merge-output-format mp4 $args
+  }
+
 fastfetch
