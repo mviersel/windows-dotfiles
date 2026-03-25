@@ -6,6 +6,7 @@ general:
 
   # startup_commands: ['shell-exec zebar']
   # startup_commands: ['shell-exec yasb']
+  startup_commands: ['shell-exec gat-gwm']
 
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
@@ -125,23 +126,23 @@ window_behavior:
 
 workspaces:
   - name: '1'
-    bind_to_monitor: 0
+    bind_to_monitor: 1
   - name: '2'
-    bind_to_monitor: 0
+    bind_to_monitor: 1
   - name: '3'
-    bind_to_monitor: 0
+    bind_to_monitor: 1
   - name: '4'
-    bind_to_monitor: 0
+    bind_to_monitor: 1
   - name: '5'
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: '6'
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: '7'
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: '8'
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: '9'
-    bind_to_monitor: 1
+    bind_to_monitor: 0
 
 window_rules:
   - commands: ['ignore']
@@ -181,15 +182,24 @@ window_rules:
 
   - commands: ["move --workspace 1"]
     match:
-      - window_process: { regex: "(?i)discord"}
+      - window_process: { regex: "(?i)overwatch"}
+      - window_process: { regex: "(?i)modrinth app"}
+      - window_process: { regex: "(?i)EpicGamesLauncher"}
+      - window_process: { regex: "(?i)kovaaks"}
+
+      - window_process: { regex: "(?i)steam"}
+      - window_process: { regex: "(?i)vlc"}
+      - window_process: { regex: "(?i)bambu studio"}
+      - window_process: { regex: "(?i)visual studio"}
+
       - window_process: { regex: "(?i)terminal"}
       - window_process: { regex: "(?i)windows powershell"}
-      - window_process: { regex: "(?i)visual studio"}
-      - window_process: { regex: "(?i)bambu studio"}
 
   - commands: ["move --workspace 2"]
     match:
-      - window_process: { regex: "(?i)obsidian"}
+      - window_process: { regex: "(?i)zen"}
+      - window_process: { regex: "(?i)brave"}
+      - window_process: { regex: "(?i)helium"}
 
   - commands: ["move --workspace 3"]
     match:
@@ -197,7 +207,9 @@ window_rules:
 
   - commands: ["move --workspace 4"]
     match:
-      - window_process: { regex: "(?i)spotify"}
+
+  - commands: ["move --workspace 6"]
+    match:
 
   - commands: ["move --workspace 7"]
     match:
@@ -205,15 +217,12 @@ window_rules:
 
   - commands: ["move --workspace 8"]
     match:
-      - window_process: { regex: "(?i)zen"}
-      - window_process: { regex: "(?i)helium"}
+      - window_process: { regex: "(?i)obsidian"}
 
   - commands: ["move --workspace 9"]
     match:
-      - window_process: { regex: "(?i)overwatch"}
-      - window_process: { regex: "(?i)modrinth app"}
-      - window_process: { regex: "(?i)steam"}
-      - window_process: { regex: "(?i)vlc"}
+      - window_process: { regex: "(?i)spotify"}
+      - window_process: { regex: "(?i)discord"}
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
