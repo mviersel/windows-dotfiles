@@ -43,7 +43,7 @@ bars:
       - "glazewm_workspaces"
       # - "komorebi_workspaces"
       # - "komorebi_active_layout"
-      - "active_window"
+      # - "active_window"
       center:
       - "clock"
       right:
@@ -52,7 +52,7 @@ bars:
       # - "microphone"
       # - "volume"
       - "notifications"
-      - "power_menu"
+      # - "power_menu"
 widgets:
   home:
     type: "yasb.home.HomeWidget"
