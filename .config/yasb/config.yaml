@@ -9,23 +9,23 @@ komorebi:
   stop_command: "komorebic stop --whkd"
   reload_command: "komorebic stop --whkd && komorebic start --whkd"
 bars:
-  primary-bar:
+  main-bar:
     enabled: true
-    screens: ["*"]
+    screens: ["27GL850"]
     class_name: "yasb-bar"
     alignment:
       position: "top"
-      center: false
+      align: "center"
     animation:
       enabled: true
       duration: 400
     blur_effect:
       enabled: true
       acrylic: false
-      dark_mode: false
-      round_corners: false
+      dark_mode: true
+      round_corners: true
       round_corners_type: "normal"
-      border_color: "system"
+      border_color: "System"
     window_flags:
       always_on_top: false
       windows_app_bar: true
@@ -48,16 +48,51 @@ bars:
       - "clock"
       right:
       - "media"
-      # - "weather"
-      # - "microphone"
-      # - "volume"
+      - "cpu"
+      - "memory"
+      - "wifi"
+      - "open_meteo"
       - "notifications"
       # - "power_menu"
+
+  ws-bar:
+    enabled: true
+    screens: ["LG HDR 4K"]
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      align: "center"
+    animation:
+      enabled: true
+      duration: 400
+    blur_effect:
+      enabled: true
+      acrylic: false
+      dark_mode: true
+      round_corners: true
+      round_corners_type: "normal"
+      border_color: "System"
+    window_flags:
+      always_on_top: false
+      windows_app_bar: true
+    dimensions:
+      width: "100%"
+      height: 32
+    padding:
+      top: 4
+      left: 4
+      bottom: 4
+      right: 4
+    widgets:
+      left:
+      - "glazewm_workspaces"
+      center: []
+      right: []
 widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "<span>\udb81\udf17</span>"
+      label: "<span>\uF17A</span>"
       menu_list:
       - { title: "User Home", path: "~" }
       - { title: "Download", path: "~\\Downloads" }
@@ -140,6 +175,102 @@ widgets:
       callbacks:
         on_left: "toggle_calendar"
         on_right: "toggle_label"
+
+  cpu:
+    type: "yasb.cpu.CpuWidget"
+    options:
+      label: "<span>\uf4bc</span> {info[percent][total]}%"
+      label_alt: "<span>\uf437</span> {info[freq][current]} MHz"
+      update_interval: 2000
+      callbacks:
+        on_left: "toggle_label"
+        on_right: "toggle_menu"
+      hide_decimal: true
+      cpu_thresholds:
+        low: 25
+        medium: 50
+        high: 90
+      menu:
+        enabled: true
+        show_graph: true
+        show_graph_grid: false
+        graph_history_size: 60
+
+  memory:
+    type: "yasb.memory.MemoryWidget"
+    options:
+      label: "<span>\uf4bc</span> {virtual_mem_percent}%"
+      label_alt: "<span>\uf4bc</span> {virtual_mem_free}/{virtual_mem_total}"
+      update_interval: 5000
+      callbacks:
+        on_left: "toggle_label"
+        on_right: "toggle_menu"
+      hide_decimal: true
+      memory_thresholds:
+        low: 25
+        medium: 50
+        high: 90
+      menu:
+        enabled: true
+        show_graph: true
+        show_graph_grid: false
+        graph_history_size: 60
+
+  wifi:
+    type: "yasb.wifi.WifiWidget"
+    options:
+      label: "<span>{wifi_icon}</span>"
+      label_alt: "{wifi_name} {wifi_strength}%"
+      update_interval: 5000
+      callbacks:
+        on_left: "toggle_menu"
+        on_middle: "exec cmd.exe /c start ms-settings:network"
+        on_right: "toggle_label"
+      ethernet_label: "<span>{wifi_icon}</span>"
+      ethernet_label_alt: "<span>{wifi_icon}</span> {ip_addr}"
+      ethernet_icon: "\ueba9"
+      get_exact_wifi_strength: false
+      hide_if_ethernet: false
+      menu_config:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+
+  open_meteo:
+    type: "yasb.open_meteo.OpenMeteoWidget"
+    options:
+      label: "<span>{icon}</span> {temp}"
+      label_alt: "{location}: {min_temp} / {max_temp}"
+      tooltip: true
+      update_interval: 900
+      hide_decimal: true
+      units: "metric"
+      callbacks:
+        on_left: "toggle_card"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+      weather_card:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        icon_size: 48
+        show_hourly_forecast: true
+        time_format: "24h"
+        hourly_point_spacing: 76
+        hourly_icon_size: 24
+        icon_smoothing: true
+        temp_line_width: 2
+        current_line_color: "#8EAEE8"
+        current_line_width: 1
+        current_line_style: "dot"
   komorebi_workspaces:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
@@ -185,50 +316,6 @@ widgets:
         on_left: "next_layout"
         on_middle: "toggle_monocle"
         on_right: "prev_layout"
-  weather:
-    type: "yasb.weather.WeatherWidget"
-    options:
-      label: "<span>{icon}</span> {temp}"
-      label_alt: "{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
-      api_key: env
-      update_interval: 600
-      hide_decimal: true
-      location: env
-      callbacks:
-        on_left: "toggle_card"
-        on_middle: "do_nothing"
-        on_right: "toggle_label"
-      icons:
-        sunnyDay: "\ue30d"
-        clearNight: "\ue32b"
-        cloudyDay: "\ue312"
-        cloudyNight: "\ue311"
-        rainyDay: "\ue308"
-        rainyNight: "\ue333"
-        snowyDay: "\ue30a"
-        snowyNight: "\ue335"
-        blizzardDay: "\udb83\udf36"
-        blizzardNight: "\udb83\udf36"
-        foggyDay: "\ue303"
-        foggyNight: "\ue346"
-        thunderstormDay: "\ue30f"
-        thunderstormNight: "\ue338"
-        default: "\uebaa"
-      weather_card:
-        blur: false
-        round_corners: false
-        alignment: "right"
-        direction: "down"
-        icon_size: 64
-        show_hourly_forecast: true
-        time_format: "24h"
-        hourly_point_spacing: 76
-        hourly_icon_size: 32
-        icon_smoothing: true
-        temp_line_width: 2
-        current_line_color: "#8EAEE8"
-        current_line_width: 1
-        current_line_style: "dot"
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
@@ -289,12 +376,15 @@ widgets:
       glazewm_server_uri: "ws://localhost:6123"
       hide_empty_workspaces: false
 
+      monitor_exclusive: true
+      enable_scroll_switching: true
+
       # labels (let op: correcte spelling)
-      empty_label: "{name}"
+      empty_label: "\u25cb"
       populated_label: "{name}"
-      active_empty_label: "{name}"
+      active_empty_label: "\u25cf"
       active_populated_label: "{name}"
-      focused_empty_label: "{name}"
+      focused_empty_label: "\u25c9"
       focused_populated_label: "{name}"
 
       # app icon settings moeten NESTED onder app_icons
