@@ -900,3 +900,214 @@ glazewm_workspaces:
 2026-03-18 20:52:43,801 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
 2026-03-18 20:52:43,801 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
 2026-03-18 20:52:44,164 [INFO] [MainThread] [root/bar_manager.py:104]: Stopping WindowsNotificationEventListener...
+2026-03-29 14:58:59,249 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-29 14:58:59,249 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-29 14:58:59,249 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-29 14:59:00,225 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-03-29 14:59:00,226 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-03-29 14:59:00,226 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-29 14:59:00,251 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-29 15:01:03,529 [DEBUG] [Thread-3] [root/watcher.py:84]: Stylesheet modified: c:\users\martijn\.config\yasb\styles.css
+2026-03-29 15:01:17,018 [DEBUG] [Thread-3] [root/watcher.py:84]: Stylesheet modified: c:\users\martijn\.config\yasb\styles.css
+2026-03-29 15:17:07,713 [INFO] [MainThread] [root/controller.py:43]: Exiting Application from tray...
+2026-03-29 15:17:07,818 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-29 15:17:07,818 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-29 15:17:08,171 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-03-30 19:46:22,190 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-30 19:46:22,190 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-30 19:46:22,190 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-30 19:46:22,926 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-03-30 19:46:22,927 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-03-30 19:46:22,927 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-30 19:46:22,951 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-30 21:44:20,771 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-15 20:33:45,123 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 20:33:45,124 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 20:33:45,124 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 20:33:45,924 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-15 20:33:45,925 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-04-15 20:33:45,925 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-15 20:33:46,094 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-15 21:02:45,119 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\martijn\.config\yasb\config.yaml
+2026-04-15 21:02:45,130 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-15 21:02:45,246 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-15 21:02:45,246 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-15 21:02:45,250 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-15 21:02:45,497 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 21:02:45,497 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 21:02:45,497 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 21:02:45,497 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-04-15 21:02:45,528 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-15 21:02:45,748 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-04-15 21:02:46,254 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-15 21:02:46,255 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-04-15 21:02:46,255 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-15 21:02:46,275 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-15 21:02:46,281 [INFO] [MainThread] [root/open_meteo.py:138]: No saved location for open_meteo. Awaiting user setup.
+2026-04-15 21:03:02,355 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\martijn\.config\yasb\styles.css
+2026-04-15 21:03:11,918 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 21:03:11,918 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 21:03:11,919 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 21:03:11,919 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-04-15 21:03:14,510 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: stop
+2026-04-15 21:03:14,510 [INFO] [CLIPipeServer] [root/controller.py:43]: Exiting Application from CLI...
+2026-04-15 21:03:14,625 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-15 21:03:14,626 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-15 21:03:14,907 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-15 21:03:17,845 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 21:03:17,845 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 21:03:17,845 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 21:03:18,658 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-15 21:03:18,659 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-04-15 21:03:18,659 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-15 21:03:18,684 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-15 21:03:18,692 [INFO] [MainThread] [root/open_meteo.py:138]: No saved location for open_meteo. Awaiting user setup.
+2026-04-15 21:03:20,471 [DEBUG] [LogPipeServer] [cli_server/cli_server.py:145]: Log pipe server client connected
+2026-04-15 21:05:20,513 [ERROR] [LogPipeServer] [cli_server/cli_server.py:162]: Write pong failed. Err: 232
+2026-04-15 21:05:20,614 [DEBUG] [LogPipeServer] [cli_server/cli_server.py:170]: Log pipe server client disconnected
+2026-04-15 21:05:26,446 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: stop
+2026-04-15 21:05:26,446 [INFO] [CLIPipeServer] [root/controller.py:43]: Exiting Application from CLI...
+2026-04-15 21:05:26,550 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-15 21:05:26,550 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-15 21:05:26,847 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-15 21:05:32,186 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 21:05:32,186 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 21:05:32,186 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 21:05:32,822 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-15 21:05:32,823 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-04-15 21:05:32,823 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-15 21:05:32,847 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-15 21:05:32,855 [INFO] [MainThread] [root/open_meteo.py:138]: No saved location for open_meteo. Awaiting user setup.
+2026-04-15 21:05:36,950 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: stop
+2026-04-15 21:05:36,950 [INFO] [CLIPipeServer] [root/controller.py:43]: Exiting Application from CLI...
+2026-04-15 21:05:37,053 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-15 21:05:37,053 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-15 21:05:37,335 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-15 21:05:41,179 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 21:05:41,179 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 21:05:41,179 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 21:05:41,830 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-15 21:05:41,831 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-04-15 21:05:41,831 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-15 21:05:41,854 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-15 21:05:41,861 [INFO] [MainThread] [root/open_meteo.py:138]: No saved location for open_meteo. Awaiting user setup.
+2026-04-15 21:05:46,001 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: stop
+2026-04-15 21:05:46,002 [INFO] [CLIPipeServer] [root/controller.py:43]: Exiting Application from CLI...
+2026-04-15 21:05:46,107 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-15 21:05:46,107 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-15 21:05:46,389 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-15 21:05:50,074 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 21:05:50,074 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 21:05:50,074 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 21:05:50,701 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-15 21:05:50,702 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-04-15 21:05:50,702 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-15 21:05:50,726 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-15 21:05:50,733 [INFO] [MainThread] [root/open_meteo.py:138]: No saved location for open_meteo. Awaiting user setup.
+2026-04-15 21:05:51,045 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: stop
+2026-04-15 21:05:51,045 [INFO] [CLIPipeServer] [root/controller.py:43]: Exiting Application from CLI...
+2026-04-15 21:05:51,148 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-15 21:05:51,148 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-15 21:05:51,254 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-15 21:07:39,731 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 21:07:39,731 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 21:07:39,731 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 21:07:40,365 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-15 21:07:40,366 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-04-15 21:07:40,366 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-15 21:07:40,393 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-15 21:07:40,401 [INFO] [MainThread] [root/open_meteo.py:138]: No saved location for open_meteo. Awaiting user setup.
+2026-04-15 21:07:52,440 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-04-15 21:09:22,230 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\martijn\.config\yasb\config.yaml
+2026-04-15 21:09:22,242 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-15 21:09:22,344 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-15 21:09:22,344 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-15 21:09:22,347 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-15 21:09:22,593 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 21:09:22,594 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 21:09:22,594 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 21:09:22,594 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-04-15 21:09:22,631 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-15 21:09:22,845 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-04-15 21:09:23,293 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-15 21:09:23,294 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-04-15 21:09:23,294 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-15 21:09:23,315 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-15 21:09:25,449 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-04-15 21:09:25,449 [INFO] [CLIPipeServer] [root/controller.py:21]: Reloading Application from CLI...
+2026-04-15 21:09:25,556 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-15 21:09:25,556 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-15 21:09:25,815 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-15 21:09:25,815 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-15 21:09:25,815 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-15 21:09:25,815 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-04-15 21:09:25,823 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-15 21:09:26,066 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-04-15 21:09:26,475 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-15 21:09:26,476 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-04-15 21:09:26,476 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-15 21:09:26,498 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-15 21:10:04,675 [INFO] [MainThread] [root/controller.py:43]: Exiting Application from tray...
+2026-04-15 21:10:04,790 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-15 21:10:04,790 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-15 21:10:05,167 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-05-13 14:34:59,445 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-13 14:34:59,445 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-13 14:34:59,446 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-13 14:34:59,542 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-13 14:34:59,543 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-13 14:34:59,696 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-13 14:34:59,995 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-13 14:35:00,479 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-13 14:35:00,480 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-05-13 14:35:00,481 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-13 14:35:00,627 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-13 14:35:21,128 [ERROR] [MainThread] [wifi_widget/wifi_managers.py:342]: Error scanning for WiFi networks: The wireless local area network interface is powered down and doesn't support the requested operation.
+2026-05-13 14:35:37,616 [INFO] [MainThread] [root/controller.py:43]: Exiting Application from tray...
+2026-05-13 14:35:37,725 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-13 14:35:38,048 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-06-15 20:31:08,397 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.3
+2026-06-15 20:31:08,397 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-06-15 20:31:08,398 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-06-15 20:31:08,475 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-06-15 20:31:08,475 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-06-15 20:31:08,601 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-06-15 20:31:08,964 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-15 20:31:09,462 [INFO] [MainThread] [root/bar_manager.py:103]: Starting WindowsNotificationEventListener...
+2026-06-15 20:31:09,463 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-06-15 20:31:09,464 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-06-15 20:31:09,607 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-06-15 23:47:01,850 [INFO] [MainThread] [root/controller.py:43]: Exiting Application from tray...
+2026-06-15 23:47:01,962 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-06-15 23:47:02,347 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping WindowsNotificationEventListener...
+2026-07-06 19:21:08,211 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.5
+2026-07-06 19:21:08,212 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-07-06 19:21:08,212 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-07-06 19:21:08,257 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-07-06 19:21:08,257 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-07-06 19:21:08,395 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-07-06 19:21:08,774 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-07-06 19:21:09,263 [INFO] [MainThread] [root/bar_manager.py:103]: Starting WindowsNotificationEventListener...
+2026-07-06 19:21:09,264 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-07-06 19:21:09,264 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-07-06 19:21:09,308 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-07-06 19:52:52,973 [INFO] [MainThread] [root/bar_manager.py:97]: Screens updated. Re-initialising all bars.
+2026-07-06 19:52:53,267 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of screen update.
+2026-07-06 19:52:53,437 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-07-06 19:52:54,451 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping WindowsNotificationEventListener...
+2026-07-06 19:53:06,351 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.5
+2026-07-06 19:53:06,352 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-07-06 19:53:06,352 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-07-06 19:53:07,287 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-07-06 19:53:07,287 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-07-06 19:53:08,333 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-07-06 19:53:10,061 [WARNING] [MainThread] [deprecation/deprecation.py:136]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-07-06 19:53:12,949 [INFO] [MainThread] [root/bar_manager.py:103]: Starting WindowsNotificationEventListener...
+2026-07-06 19:53:12,983 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\martijn\.config\yasb
+2026-07-06 19:53:12,983 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-07-06 19:53:13,174 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-07-06 20:03:04,087 [WARNING] [MainThread] [glazewm_client/client.py:134]: WebSocket error: SocketError.RemoteHostClosedError. Reconnecting...
+2026-07-06 20:03:04,090 [WARNING] [MainThread] [glazewm_client/client.py:134]: WebSocket error: SocketError.RemoteHostClosedError. Reconnecting...
+2026-07-06 20:05:30,017 [ERROR] [MainThread] [wifi_widget/wifi_managers.py:349]: Error scanning for WiFi networks: Access is denied.
+2026-07-07 00:48:33,583 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping WindowsNotificationEventListener...
+2026-07-07 00:48:33,917 [WARNING] [MainThread] [glazewm_client/client.py:134]: WebSocket error: SocketError.RemoteHostClosedError. Reconnecting...

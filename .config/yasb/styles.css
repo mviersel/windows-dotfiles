@@ -495,12 +495,75 @@ For more information about configuration options, please visit the Wiki https://
     margin-top: -20px;
 }
 .glazewm-workspaces {
-  margin: 0 10px;
+    margin: 0 10px;
 }
-.glazewm-workspaces.active {
-  color: #ffffff;
-  font_weight: bold;
+
+/* GlazeWM workspaces uses button state classes, not active/inactive on the widget root */
+.glazewm-workspaces .ws-btn {
+    border: none;
+    background: rgba(255, 255, 255, 0.06);
+    margin: 0 3px;
+    padding: 0 8px;
+    height: 22px;
+    min-width: 22px;
+    border-radius: 999px;
+    color: rgba(255, 255, 255, 0.75);
 }
-.glazewm-workspaces.inactive {
-  color: #888888;
+
+.glazewm-workspaces .ws-btn:hover {
+    background: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.glazewm-workspaces .ws-btn.empty {
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.glazewm-workspaces .ws-btn.populated {
+    background: rgba(180, 190, 254, 0.14);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.glazewm-workspaces .ws-btn.active_empty,
+.glazewm-workspaces .ws-btn.active_populated {
+    background: rgba(68, 143, 255, 0.22);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+/* Must come after active_* so focused styles win */
+.glazewm-workspaces .ws-btn.focused_empty,
+.glazewm-workspaces .ws-btn.focused_populated {
+    background: rgba(203, 166, 247, 0.22);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.glazewm-workspaces .ws-btn .icon {
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.glazewm-workspaces .ws-btn .label {
+    padding: 0;
+}
+
+.cpu-widget,
+.memory-widget,
+.wifi-widget,
+.open-meteo-widget {
+    padding: 0 6px;
+}
+
+.cpu-widget .icon,
+.memory-widget .icon,
+.wifi-widget .icon,
+.open-meteo-widget .icon {
+    font-size: 16px;
+}
+
+.open-meteo-card {
+    background-color: rgba(25, 25, 25, 0.75);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    min-width: 520px;
 }

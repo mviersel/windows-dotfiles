@@ -65,7 +65,8 @@ window_effects:
     border:
       enabled: true
       # color: '#8dbcff'
-      color: "#ffffff"
+      # color: "#B7D4B8"
+      color: "#bc4c5a"
 
     # Remove the title bar from the window's frame. Note that this can
     # cause rendering issues for some applications.
@@ -90,7 +91,7 @@ window_effects:
   other_windows:
     border:
       enabled: true
-      color: '#a1a1a1'
+      color: '#080D00'
     hide_title_bar:
       enabled: false
     corner_style:
@@ -134,7 +135,7 @@ workspaces:
   - name: '4'
     bind_to_monitor: 1
   - name: '5'
-    bind_to_monitor: 0
+    bind_to_monitor: 1
   - name: '6'
     bind_to_monitor: 0
   - name: '7'
@@ -179,33 +180,37 @@ window_rules:
       - window_process: { regex: "(?i)QuickLook" }
       - window_process: { regex: "(?i)winrar"}
       - window_process: { regex: "(?i)JDownloader2"}
+      - window_process: { regex: "(?i)freecad"}
+      - window_process: { regex: "(?i)kovaak's"}
 
   - commands: ["move --workspace 1"]
     match:
       - window_process: { regex: "(?i)overwatch"}
       - window_process: { regex: "(?i)modrinth app"}
       - window_process: { regex: "(?i)EpicGamesLauncher"}
-      - window_process: { regex: "(?i)kovaaks"}
+      - window_process: { regex: "(?i)the finals"}
 
       - window_process: { regex: "(?i)steam"}
-      - window_process: { regex: "(?i)vlc"}
-      - window_process: { regex: "(?i)bambu studio"}
       - window_process: { regex: "(?i)visual studio"}
+        
+      - window_process: { regex: "(?i)freecad"}
 
-      - window_process: { regex: "(?i)terminal"}
-      - window_process: { regex: "(?i)windows powershell"}
+      # - window_process: { regex: "(?i)terminal"}
+      # - window_process: { regex: "(?i)windows powershell"}
 
   - commands: ["move --workspace 2"]
     match:
       - window_process: { regex: "(?i)zen"}
-      - window_process: { regex: "(?i)brave"}
-      - window_process: { regex: "(?i)helium"}
 
   - commands: ["move --workspace 3"]
     match:
-      - window_process: { regex: "(?i)bascom"}
+      - window_process: { regex: "(?i)chrome"}
 
   - commands: ["move --workspace 4"]
+    match:
+      - window_process: { regex: "(?i)brave"}
+
+  - commands: ["move --workspace 5"]
     match:
 
   - commands: ["move --workspace 6"]
@@ -214,6 +219,7 @@ window_rules:
   - commands: ["move --workspace 7"]
     match:
       - window_process: { regex: "(?i)whatsapp"}
+      - window_process: { regex: "(?i)bascom"}
 
   - commands: ["move --workspace 8"]
     match:
@@ -303,9 +309,9 @@ keybindings:
   - commands: ['toggle-fullscreen']
     bindings: ['alt+f']
 
-  # Minimize focused window.
-  - commands: ['toggle-minimized']
-    bindings: ['alt+m']
+  # # Minimize focused window.
+  # - commands: ['toggle-minimized']
+  #   bindings: ['alt+m']
 
   # Close focused window.
   - commands: ['close']
@@ -326,7 +332,7 @@ keybindings:
   # Launch CMD terminal. Alternatively, use `shell-exec wt` or
   # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
   # Terminal and Git Bash respectively.
-  - commands: ['shell-exec powershell']
+  - commands: ['shell-exec wt -p "git-bash"']
     bindings: ['alt+enter']
 
   # Focus the next/previous active workspace defined in `workspaces` config.
